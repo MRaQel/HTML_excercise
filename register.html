@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<!-- Skrót aby skomentować coś: Ctrl+/ -->
+	<!-- <div></div> -->
+	<!-- <span></span> -->
+	
+	<form method="GET">
+		First name: <input type="text" name="firstname"> <br>
+		Last name: <input type="text" name="lastname"> <br>
+		E-mail: <input type="email" name="email" required> <br>
+		Password: <input type="password" name="passworde" min="5"><br>
+		Birthday: <input type="date" name="birthday"> <br>
+		
+		Gender: <br>
+		<input type="radio" name="gender" value="Male"> Male <br>
+		<input type="radio" name="gender" value="Female"> Female <br>
+		<input type="radio" name="gender" value="Other"> Other <br>
+
+		Pets: <br>
+		<input type="checkbox" name="cat" value="Cat"> Cat <br>
+		<input type="checkbox" name="dog" value="Dog"> Dog <br>
+
+		Cars: <br>
+		<select name="cars"> <!--Można też napisać: <select multiple> wtedy wybiera się więcej niż jedną opcję-->
+			<option value="volvo" name="volvo">Volvo</option>
+			<option value="audi" name="audi">Audi</option>
+		</select>
+		<br><br>
+
+		<input type="submit" value="Register button">
+		<input type="reset" value="Reset button">
+	</form>
+</body>
+</html>
+
+
+file:///C:/Users/Joanna/Desktop/UX%20UI/Website/register.html?firstname=Jan&lastname=Kowalski&email=jankowalski%40email.com&passworde=12345&birthday=2023-03-03&gender=Male&cat=Cat&dog=Dog&cars=audi
+?firstname=Jan
+&lastname=Kowalski
+&email=jankowalski%40email.com
+&passworde=12345
+&birthday=2023-03-03
+&gender=Male
+&cat=Cat
+&dog=Dog
+&cars=audi
